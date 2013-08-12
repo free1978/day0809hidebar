@@ -18,6 +18,13 @@
 		F40655F417B52DCD00FD877B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F40655F317B52DCD00FD877B /* Default-568h@2x.png */; };
 		F40655F717B52DCD00FD877B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F40655F517B52DCD00FD877B /* MainStoryboard.storyboard */; };
 		F40655FA17B52DCD00FD877B /* dayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F40655F917B52DCD00FD877B /* dayViewController.m */; };
+		F406560217B52E6400FD877B /* daySecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F406560117B52E6400FD877B /* daySecondViewController.m */; };
+		F406560417B548D200FD877B /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = F406560317B548D200FD877B /* logo.png */; };
+		F406560917B5493A00FD877B /* settings_statistic_table_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F406560517B5493A00FD877B /* settings_statistic_table_icon.png */; };
+		F406560A17B5493A00FD877B /* settings_statistic_table_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F406560617B5493A00FD877B /* settings_statistic_table_icon@2x.png */; };
+		F406560B17B5493A00FD877B /* settings_upgrade_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F406560717B5493A00FD877B /* settings_upgrade_icon.png */; };
+		F406560C17B5493A00FD877B /* settings_upgrade_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F406560817B5493A00FD877B /* settings_upgrade_icon@2x.png */; };
+		F406560E17B557A200FD877B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F406560D17B557A200FD877B /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +44,14 @@
 		F40655F617B52DCD00FD877B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		F40655F817B52DCD00FD877B /* dayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dayViewController.h; sourceTree = "<group>"; };
 		F40655F917B52DCD00FD877B /* dayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dayViewController.m; sourceTree = "<group>"; };
+		F406560017B52E6400FD877B /* daySecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = daySecondViewController.h; sourceTree = "<group>"; };
+		F406560117B52E6400FD877B /* daySecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = daySecondViewController.m; sourceTree = "<group>"; };
+		F406560317B548D200FD877B /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		F406560517B5493A00FD877B /* settings_statistic_table_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings_statistic_table_icon.png; sourceTree = "<group>"; };
+		F406560617B5493A00FD877B /* settings_statistic_table_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settings_statistic_table_icon@2x.png"; sourceTree = "<group>"; };
+		F406560717B5493A00FD877B /* settings_upgrade_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings_upgrade_icon.png; sourceTree = "<group>"; };
+		F406560817B5493A00FD877B /* settings_upgrade_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settings_upgrade_icon@2x.png"; sourceTree = "<group>"; };
+		F406560D17B557A200FD877B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F406560E17B557A200FD877B /* QuartzCore.framework in Frameworks */,
 				F40655DE17B52DCD00FD877B /* UIKit.framework in Frameworks */,
 				F40655E017B52DCD00FD877B /* Foundation.framework in Frameworks */,
 				F40655E217B52DCD00FD877B /* CoreGraphics.framework in Frameworks */,
@@ -73,6 +89,7 @@
 		F40655DC17B52DCD00FD877B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F406560D17B557A200FD877B /* QuartzCore.framework */,
 				F40655DD17B52DCD00FD877B /* UIKit.framework */,
 				F40655DF17B52DCD00FD877B /* Foundation.framework */,
 				F40655E117B52DCD00FD877B /* CoreGraphics.framework */,
@@ -83,11 +100,14 @@
 		F40655E317B52DCD00FD877B /* day0809hidebar */ = {
 			isa = PBXGroup;
 			children = (
+				F406560F17B55E1300FD877B /* image */,
 				F40655EC17B52DCD00FD877B /* dayAppDelegate.h */,
 				F40655ED17B52DCD00FD877B /* dayAppDelegate.m */,
 				F40655F517B52DCD00FD877B /* MainStoryboard.storyboard */,
 				F40655F817B52DCD00FD877B /* dayViewController.h */,
 				F40655F917B52DCD00FD877B /* dayViewController.m */,
+				F406560017B52E6400FD877B /* daySecondViewController.h */,
+				F406560117B52E6400FD877B /* daySecondViewController.m */,
 				F40655E417B52DCD00FD877B /* Supporting Files */,
 			);
 			path = day0809hidebar;
@@ -105,6 +125,18 @@
 				F40655F317B52DCD00FD877B /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F406560F17B55E1300FD877B /* image */ = {
+			isa = PBXGroup;
+			children = (
+				F406560317B548D200FD877B /* logo.png */,
+				F406560517B5493A00FD877B /* settings_statistic_table_icon.png */,
+				F406560617B5493A00FD877B /* settings_statistic_table_icon@2x.png */,
+				F406560717B5493A00FD877B /* settings_upgrade_icon.png */,
+				F406560817B5493A00FD877B /* settings_upgrade_icon@2x.png */,
+			);
+			name = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +196,11 @@
 				F40655F217B52DCD00FD877B /* Default@2x.png in Resources */,
 				F40655F417B52DCD00FD877B /* Default-568h@2x.png in Resources */,
 				F40655F717B52DCD00FD877B /* MainStoryboard.storyboard in Resources */,
+				F406560417B548D200FD877B /* logo.png in Resources */,
+				F406560917B5493A00FD877B /* settings_statistic_table_icon.png in Resources */,
+				F406560A17B5493A00FD877B /* settings_statistic_table_icon@2x.png in Resources */,
+				F406560B17B5493A00FD877B /* settings_upgrade_icon.png in Resources */,
+				F406560C17B5493A00FD877B /* settings_upgrade_icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +214,7 @@
 				F40655EA17B52DCD00FD877B /* main.m in Sources */,
 				F40655EE17B52DCD00FD877B /* dayAppDelegate.m in Sources */,
 				F40655FA17B52DCD00FD877B /* dayViewController.m in Sources */,
+				F406560217B52E6400FD877B /* daySecondViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

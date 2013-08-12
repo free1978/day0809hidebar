@@ -20,6 +20,23 @@
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
+
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if ([segue.identifier isEqualToString:@"pushHideBarSegue"])
+    {
+        NSLog(@"pushHideBarSegue");
+        self.hidesBottomBarWhenPushed = YES;
+    }
+    else
+    {
+        self.hidesBottomBarWhenPushed = NO;
+    }
+
+}
+
+
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
